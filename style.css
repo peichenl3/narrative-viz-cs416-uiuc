@@ -1,0 +1,75 @@
+/* Global page styles */
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 40px;
+  background-color: #fafafa;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+button {
+  background: #007acc;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin: 0 4px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #005b99;
+}
+button.active {
+  background: #003f66;
+}
+
+/* SVG container */
+svg {
+  display: block;
+  margin: auto;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+/* Gridlines */
+.grid line {
+  stroke: #ddd;
+  stroke-opacity: 0.8;
+  shape-rendering: crispEdges;
+}
+.grid path {
+  stroke-width: 0;
+}
+
+/* Points */
+circle {
+  fill: #4285f4;
+  stroke: #fff;
+  stroke-width: 1;
+  opacity: 0.8;
+  transition: r 0.2s, fill 0.2s;
+}
+circle:hover {
+  fill: #d35400;
+  r: 7px;
+}
+
+/* Annotation text */
+#annotation {
+  text-align: center;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+
+/* T*
